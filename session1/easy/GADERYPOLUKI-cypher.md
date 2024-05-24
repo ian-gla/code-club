@@ -2,7 +2,7 @@
 
 This has been adapted from a [code-wars problem](https://www.codewars.com/kata/592a6ad46d6c5a62b600003f).
 
-The GADERYPOLUKI is a simple substitution cypher used in scouting to encrypt messages. The encryption is based on short, easy to remember key. The key is written as paired letters, which are in the cipher simple replacement.
+The GADERYPOLUKI is a simple substitution cypher used in scouting to encrypt messages. The encryption is based on short, easy to remember key. The key is written as paired letters, which act as a simple replacement cypher.
 
 The most frequently used key is `GA-DE-RY-PO-LU-KI`.
 
@@ -15,13 +15,13 @@ The most frequently used key is `GA-DE-RY-PO-LU-KI`.
   etc.
 ```
 
-The letters, which are not on the list of substitutes, stays in the encrypted text without changes.
+The letters, which are not on the list of substitutes stay in the encrypted text without changes.
 
 ## Task
 
-Your task is to help scouts to encrypt and decrypt thier messages. Write the `encode()` and `decode()` functions.
+Your task is to help scouts encrypt and decrypt thier messages by writing `encode()` and `decode()` functions.
 
-The input string consists of lowercase and uperrcase characters and spaces. The substitution should be case-sensitive.
+The input string for each function consists of lowercase and uperrcase characters and spaces. The substitution should be case-sensitive.
 
 ## Example
 ```
