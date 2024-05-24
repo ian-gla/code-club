@@ -15,7 +15,7 @@ The most frequently used key is `GA-DE-RY-PO-LU-KI`.
   etc.
 ```
 
-The letters, which are not on the list of substitutes stay in the encrypted text without changes.
+The letters which are not on the list of substitutes stay in the encrypted text without changes.
 
 ## Task
 
