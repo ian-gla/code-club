@@ -26,7 +26,7 @@ The input string for each function consists of lowercase and uperrcase character
 ## Example
 ```
  encode("ABCD")          // => GBCE 
- encode("Ava has a cat") // => Gug hgs g cgt 
+ encode("Ava has a cat") // => Gvg hgs g cgt 
  encode("gaderypoluki"); // => agedyropulik
  decode("Gvg hgs g cgt") // => Ava has a cat 
  decode("agedyropulik")  // => gaderypoluki
