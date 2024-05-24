@@ -2,7 +2,7 @@
 
 This is has been adapted from a [code-wars problem](https://www.codewars.com/kata/592bdf59912f2209710000e9).
 
-The GADERYPOLUKI is a simple substitution cypher used in scouting to encrypt messages. The encryption is based on short, easy to remember key. The key is written as paired letters, which are in the cipher simple replacement.
+The GADERYPOLUKI is a simple substitution cypher used in scouting to encrypt messages. The encryption is based on short, easy to remember key. The key is written as paired letters, which act as a simple replacement cypher.
 
 The most frequently used key is "GA-DE-RY-PO-LU-KI".
 ```
@@ -12,7 +12,7 @@ The most frequently used key is "GA-DE-RY-PO-LU-KI".
  e => d
   etc.
 ```
-The letters, which are not on the list of substitutes, stays in the encrypted text without changes.
+The letters which are not on the list of substitutes stay in the encrypted text without changes.
 
 Other keys often used by Scouts:
 ```
@@ -25,11 +25,11 @@ RE-GU-LA-MI-NO-WY
 ```
 ## Task
 
-Our scouts had party yesterday and they had too much milk and cookies. As the result all of them forgot the key. Your task is to help scouts to find the key that they used for encryption by writing a `find_the_key()` function. Fortunately they have some messages that are already encoded.
+Our scouts had party yesterday and they had too much milk and cookies. As a result all of them forgot the key. Your task is to help the scouts find the key they used for encryption by writing a `find_the_key()` function. Fortunately they have some messages that are already encoded.
 
-The function `find_the_key()` accepts two lists as parameters, `messages` and `secrets`.
-The `messages` list consists of strings of lowercase characters and whitespace characters. The strings on the messages array are the scout's messages before encryption.
-The `secrets` list consists of strings of lowercase characters and whitespace characters. The strings on the secrets array are the scout's messages after encryption.
+The function `find_the_key()` should accept two lists as parameters: `messages` and `secrets`.
+The strings on the `messages` list are the scout's messages before encryption, consisting of strings of lowercase characters and whitespace characters.
+The strings on the `secrets` list are the scout's messages after encryption, also consisting of strings of lowercase characters and whitespace characters. 
 
 The function should return a string consisting of lowercase characters only. The pairs of substitution should be ordered by the first letter of substitution. The letters in each pair should be in alphabetic order. For example:
 
