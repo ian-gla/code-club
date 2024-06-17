@@ -1,6 +1,6 @@
 # Bounding boxes from arrays
 
-Write a function `bounding_box_from_array() which takes a 100x100 array as an argument with values of either 0 or 1 at each point, and returns a new 100x100 array, which is valued 0 everywhere except the edges of the smallest box containing every 1 in the original array.
+Write a function `bounding_box_from_array()` which takes a 100x100 array as an argument with values of either 0 or 1 at each point, and returns a new 100x100 array, which is valued 0 everywhere except the edges of the smallest box containing every 1 in the original array.
 
 You should also write a function which can generate random arrays to test your function. 
 ### Example
