@@ -1,7 +1,7 @@
 # Coordinates to array
 Write a function `coordinates_to_array()` which takes a list of coordinates as an argument and returns a 100x100 array which has value 1 at the specified coordinates and value 0 everywhere else. 
 ### Example
-In the example below the co-ordinates have been plotted onto a 10x10 array, rather than 100x100. Assume the coordinates are zero-index (i.e. the coordinates (0,0) indicates the first row of the first column.)
+In the example below the co-ordinates have been plotted onto a 10x10 array, rather than 100x100. Assume the coordinates are zero-index (i.e. the coordinates (0,0) indicates the first column of the first row.)
 
 input:
 `coordinates=[(2,3), (4,9), (1,5), (4,2)]`
