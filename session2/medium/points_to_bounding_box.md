@@ -4,7 +4,7 @@ Write a function `bounding_box()` which takes a list of coordinates as an argume
 
 You should also write a function which produces a list of random coordinates to test your function. 
 ### Example 
-The example below is plotted onto a 10x10 array, rather than 100x100. We assume the cooordinates are zero indexed.
+The example below is plotted onto a 10x10 array, rather than 100x100. We can assume the cooordinates are zero indexed.
 
 input:
 `coordinates=[(2,3), (4,9), (1,5), (4,2)]`
