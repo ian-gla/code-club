@@ -1,8 +1,8 @@
 # Bounding boxes form points
 
-Write a function `bounding_box()` which takes a list of coordinates as an argument and returns a 100x100 array which is valued zero everywhere except for at the edges of the smallest rectagle containing every point (inclusive of the edge coordinates). 
+Write a function `bounding_box()` which takes a list of coordinates as an argument and returns a 100x100 array which is valued zero everywhere except at the edges of the smallest rectagle containing every point (inclusive of the edge coordinates). 
 
-You should also write a funcoitn which produces a list of random coordinates to test your function. 
+You should also write a function which produces a list of random coordinates to test your function. 
 ### Example 
 The example below is plotted onto a 10x10 array, rather than 100x100. We assume the cooordinates are zero indexed.
 
